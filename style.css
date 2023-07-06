@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=poppins');
+*{
+    margin:0;
+    padding:0
+}
+
+header {
+  background-image: url("./img/header-bg.png");
+  width: 100vw;
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+header h2{
+font-size: 4vmin;
+}
+.line{
+   width:150px;
+   height:4px;
+    background-color: crimson;
+margin: 10px auto;border-radius: 5px;
+}
+header h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    text-decoration: none;
+    color:#fff;
+    padding:8px 15px;
+    background-color: crimson;
+    border-radius: 8px;
+
+}
